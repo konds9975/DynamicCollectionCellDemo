@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFDAC7A11FE0462900C32C27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDAC7A01FE0462900C32C27 /* AppDelegate.m */; };
+		FFDAC7A41FE0462900C32C27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDAC7A31FE0462900C32C27 /* ViewController.m */; };
+		FFDAC7A71FE0462900C32C27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDAC7A51FE0462900C32C27 /* Main.storyboard */; };
+		FFDAC7A91FE0462900C32C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFDAC7A81FE0462900C32C27 /* Assets.xcassets */; };
+		FFDAC7AC1FE0462900C32C27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDAC7AA1FE0462900C32C27 /* LaunchScreen.storyboard */; };
+		FFDAC7AF1FE0462900C32C27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDAC7AE1FE0462900C32C27 /* main.m */; };
+		FFDAC7B91FE0462900C32C27 /* DynamicCollectionCellDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDAC7B81FE0462900C32C27 /* DynamicCollectionCellDemoTests.m */; };
+		FFDAC7C41FE0462900C32C27 /* DynamicCollectionCellDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDAC7C31FE0462900C32C27 /* DynamicCollectionCellDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFDAC7B51FE0462900C32C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFDAC7941FE0462900C32C27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFDAC79B1FE0462900C32C27;
+			remoteInfo = DynamicCollectionCellDemo;
+		};
+		FFDAC7C01FE0462900C32C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFDAC7941FE0462900C32C27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFDAC79B1FE0462900C32C27;
+			remoteInfo = DynamicCollectionCellDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFDAC79C1FE0462900C32C27 /* DynamicCollectionCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicCollectionCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDAC79F1FE0462900C32C27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFDAC7A01FE0462900C32C27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFDAC7A21FE0462900C32C27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FFDAC7A31FE0462900C32C27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FFDAC7A61FE0462900C32C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFDAC7A81FE0462900C32C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFDAC7AB1FE0462900C32C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFDAC7AD1FE0462900C32C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFDAC7AE1FE0462900C32C27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFDAC7B41FE0462900C32C27 /* DynamicCollectionCellDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicCollectionCellDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDAC7B81FE0462900C32C27 /* DynamicCollectionCellDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicCollectionCellDemoTests.m; sourceTree = "<group>"; };
+		FFDAC7BA1FE0462900C32C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFDAC7BF1FE0462900C32C27 /* DynamicCollectionCellDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicCollectionCellDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDAC7C31FE0462900C32C27 /* DynamicCollectionCellDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicCollectionCellDemoUITests.m; sourceTree = "<group>"; };
+		FFDAC7C51FE0462900C32C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFDAC7991FE0462900C32C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDAC7B11FE0462900C32C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDAC7BC1FE0462900C32C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFDAC7931FE0462900C32C27 = {
+			isa = PBXGroup;
+			children = (
+				FFDAC79E1FE0462900C32C27 /* DynamicCollectionCellDemo */,
+				FFDAC7B71FE0462900C32C27 /* DynamicCollectionCellDemoTests */,
+				FFDAC7C21FE0462900C32C27 /* DynamicCollectionCellDemoUITests */,
+				FFDAC79D1FE0462900C32C27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFDAC79D1FE0462900C32C27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFDAC79C1FE0462900C32C27 /* DynamicCollectionCellDemo.app */,
+				FFDAC7B41FE0462900C32C27 /* DynamicCollectionCellDemoTests.xctest */,
+				FFDAC7BF1FE0462900C32C27 /* DynamicCollectionCellDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFDAC79E1FE0462900C32C27 /* DynamicCollectionCellDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FFDAC79F1FE0462900C32C27 /* AppDelegate.h */,
+				FFDAC7A01FE0462900C32C27 /* AppDelegate.m */,
+				FFDAC7A21FE0462900C32C27 /* ViewController.h */,
+				FFDAC7A31FE0462900C32C27 /* ViewController.m */,
+				FFDAC7A51FE0462900C32C27 /* Main.storyboard */,
+				FFDAC7A81FE0462900C32C27 /* Assets.xcassets */,
+				FFDAC7AA1FE0462900C32C27 /* LaunchScreen.storyboard */,
+				FFDAC7AD1FE0462900C32C27 /* Info.plist */,
+				FFDAC7AE1FE0462900C32C27 /* main.m */,
+			);
+			path = DynamicCollectionCellDemo;
+			sourceTree = "<group>";
+		};
+		FFDAC7B71FE0462900C32C27 /* DynamicCollectionCellDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFDAC7B81FE0462900C32C27 /* DynamicCollectionCellDemoTests.m */,
+				FFDAC7BA1FE0462900C32C27 /* Info.plist */,
+			);
+			path = DynamicCollectionCellDemoTests;
+			sourceTree = "<group>";
+		};
+		FFDAC7C21FE0462900C32C27 /* DynamicCollectionCellDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFDAC7C31FE0462900C32C27 /* DynamicCollectionCellDemoUITests.m */,
+				FFDAC7C51FE0462900C32C27 /* Info.plist */,
+			);
+			path = DynamicCollectionCellDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFDAC79B1FE0462900C32C27 /* DynamicCollectionCellDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFDAC7C81FE0462900C32C27 /* Build configuration list for PBXNativeTarget "DynamicCollectionCellDemo" */;
+			buildPhases = (
+				FFDAC7981FE0462900C32C27 /* Sources */,
+				FFDAC7991FE0462900C32C27 /* Frameworks */,
+				FFDAC79A1FE0462900C32C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicCollectionCellDemo;
+			productName = DynamicCollectionCellDemo;
+			productReference = FFDAC79C1FE0462900C32C27 /* DynamicCollectionCellDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFDAC7B31FE0462900C32C27 /* DynamicCollectionCellDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFDAC7CB1FE0462900C32C27 /* Build configuration list for PBXNativeTarget "DynamicCollectionCellDemoTests" */;
+			buildPhases = (
+				FFDAC7B01FE0462900C32C27 /* Sources */,
+				FFDAC7B11FE0462900C32C27 /* Frameworks */,
+				FFDAC7B21FE0462900C32C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFDAC7B61FE0462900C32C27 /* PBXTargetDependency */,
+			);
+			name = DynamicCollectionCellDemoTests;
+			productName = DynamicCollectionCellDemoTests;
+			productReference = FFDAC7B41FE0462900C32C27 /* DynamicCollectionCellDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFDAC7BE1FE0462900C32C27 /* DynamicCollectionCellDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFDAC7CE1FE0462900C32C27 /* Build configuration list for PBXNativeTarget "DynamicCollectionCellDemoUITests" */;
+			buildPhases = (
+				FFDAC7BB1FE0462900C32C27 /* Sources */,
+				FFDAC7BC1FE0462900C32C27 /* Frameworks */,
+				FFDAC7BD1FE0462900C32C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFDAC7C11FE0462900C32C27 /* PBXTargetDependency */,
+			);
+			name = DynamicCollectionCellDemoUITests;
+			productName = DynamicCollectionCellDemoUITests;
+			productReference = FFDAC7BF1FE0462900C32C27 /* DynamicCollectionCellDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFDAC7941FE0462900C32C27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Kondya;
+				TargetAttributes = {
+					FFDAC79B1FE0462900C32C27 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FFDAC7B31FE0462900C32C27 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFDAC79B1FE0462900C32C27;
+					};
+					FFDAC7BE1FE0462900C32C27 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFDAC79B1FE0462900C32C27;
+					};
+				};
+			};
+			buildConfigurationList = FFDAC7971FE0462900C32C27 /* Build configuration list for PBXProject "DynamicCollectionCellDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFDAC7931FE0462900C32C27;
+			productRefGroup = FFDAC79D1FE0462900C32C27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFDAC79B1FE0462900C32C27 /* DynamicCollectionCellDemo */,
+				FFDAC7B31FE0462900C32C27 /* DynamicCollectionCellDemoTests */,
+				FFDAC7BE1FE0462900C32C27 /* DynamicCollectionCellDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFDAC79A1FE0462900C32C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDAC7AC1FE0462900C32C27 /* LaunchScreen.storyboard in Resources */,
+				FFDAC7A91FE0462900C32C27 /* Assets.xcassets in Resources */,
+				FFDAC7A71FE0462900C32C27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDAC7B21FE0462900C32C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDAC7BD1FE0462900C32C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFDAC7981FE0462900C32C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDAC7A41FE0462900C32C27 /* ViewController.m in Sources */,
+				FFDAC7AF1FE0462900C32C27 /* main.m in Sources */,
+				FFDAC7A11FE0462900C32C27 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDAC7B01FE0462900C32C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDAC7B91FE0462900C32C27 /* DynamicCollectionCellDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDAC7BB1FE0462900C32C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDAC7C41FE0462900C32C27 /* DynamicCollectionCellDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFDAC7B61FE0462900C32C27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFDAC79B1FE0462900C32C27 /* DynamicCollectionCellDemo */;
+			targetProxy = FFDAC7B51FE0462900C32C27 /* PBXContainerItemProxy */;
+		};
+		FFDAC7C11FE0462900C32C27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFDAC79B1FE0462900C32C27 /* DynamicCollectionCellDemo */;
+			targetProxy = FFDAC7C01FE0462900C32C27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFDAC7A51FE0462900C32C27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFDAC7A61FE0462900C32C27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFDAC7AA1FE0462900C32C27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFDAC7AB1FE0462900C32C27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFDAC7C61FE0462900C32C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFDAC7C71FE0462900C32C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFDAC7C91FE0462900C32C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DynamicCollectionCellDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DynamicCollectionCellDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFDAC7CA1FE0462900C32C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DynamicCollectionCellDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DynamicCollectionCellDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFDAC7CC1FE0462900C32C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DynamicCollectionCellDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DynamicCollectionCellDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicCollectionCellDemo.app/DynamicCollectionCellDemo";
+			};
+			name = Debug;
+		};
+		FFDAC7CD1FE0462900C32C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DynamicCollectionCellDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DynamicCollectionCellDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicCollectionCellDemo.app/DynamicCollectionCellDemo";
+			};
+			name = Release;
+		};
+		FFDAC7CF1FE0462900C32C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DynamicCollectionCellDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DynamicCollectionCellDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DynamicCollectionCellDemo;
+			};
+			name = Debug;
+		};
+		FFDAC7D01FE0462900C32C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DynamicCollectionCellDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DynamicCollectionCellDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DynamicCollectionCellDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFDAC7971FE0462900C32C27 /* Build configuration list for PBXProject "DynamicCollectionCellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDAC7C61FE0462900C32C27 /* Debug */,
+				FFDAC7C71FE0462900C32C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFDAC7C81FE0462900C32C27 /* Build configuration list for PBXNativeTarget "DynamicCollectionCellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDAC7C91FE0462900C32C27 /* Debug */,
+				FFDAC7CA1FE0462900C32C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFDAC7CB1FE0462900C32C27 /* Build configuration list for PBXNativeTarget "DynamicCollectionCellDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDAC7CC1FE0462900C32C27 /* Debug */,
+				FFDAC7CD1FE0462900C32C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFDAC7CE1FE0462900C32C27 /* Build configuration list for PBXNativeTarget "DynamicCollectionCellDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDAC7CF1FE0462900C32C27 /* Debug */,
+				FFDAC7D01FE0462900C32C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFDAC7941FE0462900C32C27 /* Project object */;
+}
